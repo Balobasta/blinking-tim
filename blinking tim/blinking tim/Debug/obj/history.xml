@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103TB -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\blinking tim\cmsis -I..\..\..\workspace -I..\..\..\workspace\blinking tim\cmsis_boot -I..\..\..\workspace\blinking tim\stm_lib -I..\..\..\workspace\blinking tim\stm_lib\inc -I..\..\..\workspace\blinking tim">
+      <target file="stm32f10x_rcc.o" lastModified="164653d6bed">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="16465376751"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="164653d66b6">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="16465372080"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="164653d65fa">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="164653720e4"/>
+      </target>
+      <target file="misc.o" lastModified="164653d6e5d">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="1646537b9e1"/>
+      </target>
+      <target file="main.o" lastModified="16474629d1c">
+         <source file="..\..\..\main.c" lastModified="16474629785"/>
+      </target>
+      <target file="syscalls.o" lastModified="164653d6cfa">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="164653735cf"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="164653d643e">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="1646537921b"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="164653d68ab">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="164653767b8"/>
+      </target>
+   </processor>
+</history>
